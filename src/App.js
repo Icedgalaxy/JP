@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Provider } from "react-redux";
+import { BrowserRouter, Router } from "react-router-dom";
 import Header from "./common/header";
 import store from "./store";
 import { GlobalStyle } from "./style";
@@ -12,6 +13,7 @@ class App extends Component {
         <GlobalStyle />
         <IconFont />
         <Header />
+        <BrowserRouter></BrowserRouter>
       </Provider>
     );
   }
