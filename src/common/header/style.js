@@ -3,11 +3,15 @@ import LogoPic from "../../statics/logo.png";
 import RotatePic from "../../statics/rotate.png";
 
 export const HeaderWrapper = styled.div`
-  position: relative;
+  // position: relative;
+  position:fixed;
+  top:0;
+  width:100%;
+  background:#fff
   height: 56px;
   border-bottom: 1px solid #f0f0f0;
 `;
-export const Logo = styled.a`
+export const Logo = styled.div`
   position: absolute;
   top: 0;
   left: 0;
@@ -16,6 +20,7 @@ export const Logo = styled.a`
   height: 56px;
   background-image: url(${LogoPic});
   background-size: 100%;
+  cursor:pointer;
 `;
 export const Nav = styled.div`
   width: 960px;
@@ -101,6 +106,7 @@ export const SearchInfo = styled.div`
   top: 56px;
   width: 240px;
   padding: 0 20px;
+  background: #fff;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
 `;
 export const Arrow = styled.div`

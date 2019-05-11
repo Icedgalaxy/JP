@@ -27,6 +27,10 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+	-webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
 	line-height: 1;
 }
 ol, ul {
