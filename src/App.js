@@ -7,7 +7,7 @@ import { GlobalStyle } from "./style";
 import { IconFont } from "./statics/iconfont/iconfont";
 import Login from "./pages/login";
 import Home from "./pages/home";
-import Detail from "./pages/detail";
+import Detail from "./pages/detail/loadable";
 import Write from "./pages/write";
 
 class App extends Component {
